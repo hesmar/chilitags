@@ -27,6 +27,8 @@
 #include <string>
 #include <memory>
 
+#include "chilitags_export.hpp"
+
 namespace chilitags {
 
 /**
@@ -54,7 +56,7 @@ typedef std::map<int, Quad> TagCornerMap;
     It also provides some utilities, like encoding and decoding id's to/from
     bit matrices, or drawing a given tag.
  */
-class Chilitags
+class CHILITAGS_EXPORT Chilitags
 {
 
 public:
